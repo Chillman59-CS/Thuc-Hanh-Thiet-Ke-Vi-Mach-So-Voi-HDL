@@ -21,7 +21,7 @@ module bai2 (
             S1:    next_state = (SW[0]) ? S3 : S0;
             S2:    next_state = (SW[0]) ? S4 : S2;
             S3:    next_state = (SW[0]) ? S3 : S5;
-            S4:    next_state = (SW[0]) ? S1 : S0;
+            S4:    next_state = (SW[0]) ? S3 : S0;
             S5:    next_state = (SW[0]) ? S1 : S2;
             default: next_state = START;
         endcase
